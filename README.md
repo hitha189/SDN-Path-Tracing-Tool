@@ -1,7 +1,7 @@
 # SDN Path Tracing Tool
 ### Course: Computer Networks — UE24CS252B | PES University
-### Name: Hitha
-### Semester: 4th Semester CSE
+### Name: Hithashree S
+### SRN: PES1UG24CS189
 
 ---
 
