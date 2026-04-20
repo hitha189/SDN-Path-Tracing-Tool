@@ -188,7 +188,7 @@ h2 -> h1
 
 ### Screenshot
 <!-- Add your pingall screenshot here -->
-![Ping Test](screenshots/pingall.png)
+![Ping Test](pingall.png)
 
 ### What this proves
 - All hosts can communicate through the switch path
@@ -208,7 +208,7 @@ mininet> sh ovs-ofctl dump-flows s3
 
 ### Screenshot
 <!-- Add your flow table screenshot here -->
-![Flow Tables](screenshots/flow_tables.png)
+![Flow Tables](flow_tables.png)
 
 ### Flow Table Analysis
 
@@ -245,7 +245,7 @@ Client connecting to 10.0.0.1, TCP port 5001
 
 ### Screenshot
 <!-- Add your iperf screenshot here -->
-![iperf Test](screenshots/iperf.png)
+![iperf Test](iperf.png)
 
 ### Performance Analysis
 
@@ -264,7 +264,7 @@ The high bandwidth is expected in a virtual network environment (no physical har
 
 ### Screenshot
 <!-- Add your Ryu terminal path tracing screenshot here -->
-![Path Tracing](screenshots/path_tracing.png)
+![Path Tracing](path_tracing.png)
 
 ### Output Explanation
 
