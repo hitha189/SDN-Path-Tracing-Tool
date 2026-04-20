@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Design and implement an **SDN-based Path Tracing Tool** using Mininet and the Ryu OpenFlow Controller that:
 - Identifies and displays the path taken by packets across a network
@@ -16,7 +16,7 @@ Design and implement an **SDN-based Path Tracing Tool** using Mininet and the Ry
 
 ---
 
-## 🧠 Introduction
+## Introduction
 
 In traditional networks, packet paths are determined by distributed routing protocols and are difficult to observe. In **Software Defined Networking (SDN)**, the control plane is centralized in a controller, making it possible to track and display exactly which switches a packet passes through.
 
@@ -27,7 +27,7 @@ This project uses:
 
 ---
 
-## 🗺️ Network Topology
+## Network Topology
 
 ```
 h1 ---- s1 ---- s2 ---- s3 ---- h2
@@ -47,7 +47,7 @@ A linear 3-switch topology is ideal for demonstrating path tracing because packe
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Ubuntu 20.04 / 22.04
@@ -93,7 +93,7 @@ Place `topology.py` and `path_tracer.py` in this folder.
 
 ---
 
-## 🚀 Execution Steps
+## Execution Steps
 
 ### Terminal 1 — Start Ryu Controller
 ```bash
@@ -133,7 +133,7 @@ h2 iperf -c 10.0.0.1 -t 5
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 sdn-path-tracer/
@@ -144,7 +144,7 @@ sdn-path-tracer/
 
 ---
 
-## 💻 Source Code
+## Source Code
 
 ### topology.py
 ```python
@@ -326,7 +326,7 @@ class PathTracer(app_manager.RyuApp):
 
 ---
 
-## 📊 SDN Logic & Flow Rule Design
+## SDN Logic & Flow Rule Design
 
 ### How Path Tracing Works
 
@@ -353,7 +353,7 @@ class PathTracer(app_manager.RyuApp):
 
 ---
 
-## ✅ Test Scenario 1 — Ping Test (Connectivity Validation)
+## Test Scenario 1 — Ping Test (Connectivity Validation)
 
 ### Command
 ```bash
@@ -379,7 +379,7 @@ h2 -> h1
 
 ---
 
-## ✅ Test Scenario 2 — Flow Table Verification
+## Test Scenario 2 — Flow Table Verification
 
 ### Command
 ```bash
@@ -409,7 +409,7 @@ Key observations:
 
 ---
 
-## ✅ Test Scenario 3 — iperf Bandwidth Test
+## Test Scenario 3 — iperf Bandwidth Test
 
 ### Command
 ```bash
@@ -442,7 +442,7 @@ The high bandwidth is expected in a virtual network environment (no physical har
 
 ---
 
-## ✅ Path Tracing Output
+## Path Tracing Output
 
 ### Screenshot
 <!-- Add your Ryu terminal path tracing screenshot here -->
@@ -467,7 +467,7 @@ Switch s3 connected to controller   ← s3 registered with Ryu
 
 ---
 
-## 📈 Performance Observation & Analysis
+## Performance Observation & Analysis
 
 | Metric | Tool Used | Result |
 |--------|-----------|--------|
@@ -479,7 +479,7 @@ Switch s3 connected to controller   ← s3 registered with Ryu
 
 ---
 
-## 🔍 SDN Concepts Demonstrated
+## SDN Concepts Demonstrated
 
 | Concept | How it's shown in this project |
 |---------|-------------------------------|
@@ -492,7 +492,7 @@ Switch s3 connected to controller   ← s3 registered with Ryu
 
 ---
 
-## 🧹 Cleanup
+## Cleanup
 
 To stop and clean up after the experiment:
 ```bash
@@ -505,7 +505,7 @@ sudo mn -c
 
 ---
 
-## 📚 References
+## References
 
 1. Mininet Overview — https://mininet.org/overview/
 2. Mininet Walkthrough — https://mininet.org/walkthrough/
